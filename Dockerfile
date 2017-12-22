@@ -7,7 +7,8 @@ RUN apt-get update && \
             gcc \
             python-dev \
             python-virtualenv \
-            build-essential
+            build-essential \
+            unzip
 
 RUN rm -rf /var/lib/apt/lists/*
 
